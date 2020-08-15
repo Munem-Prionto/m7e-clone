@@ -1,0 +1,22 @@
+//fixes 
+@import '../0_common-style/reset';
+    
+//var 
+@import'../0_common-style/var' ;
+//main 
+    //base 
+    @import '../0_common-style/base';
+    //nav
+    @import '../0_common-style/nav';
+    //main
+     @import './main';
+    //footer
+    @import '../0_common-style/footer';
+    
+
+
+@import '../0_common-style/common_responsive';
+@import './responsive';
+
+
+

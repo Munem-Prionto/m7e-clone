@@ -1,0 +1,31 @@
+main {
+    margin: 8rem auto;
+
+    .client-container {
+        display: flex;
+        flex-wrap: wrap;
+        .client-logo {
+            width: 40%;
+        }
+        .client-info {
+            width: 60%;
+            padding-left: 1rem;
+        }
+        p{
+           padding-bottom: 2rem;
+
+           a {
+               font-size: 1.2rem;
+               color: $s-font-color;
+               text-decoration:none;
+
+               &:hover {
+                   color: lighten($color: $s-font-color, $amount: 40%);
+               }
+           }
+        
+        }
+
+    }
+}
+

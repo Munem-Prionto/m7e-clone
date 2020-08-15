@@ -1,0 +1,288 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #ffffff;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+nav {
+  padding-top: 3rem;
+  width: 70%;
+  margin: 1rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a:hover {
+  color: #4e4e4e;
+}
+
+nav span {
+  cursor: pointer;
+}
+
+nav h1 a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  font-size: 2rem;
+  color: #8f426c;
+}
+
+nav h1 a:hover {
+  cursor: pointer;
+  color: #000000;
+}
+
+nav .links {
+  /* background-color: rebeccapurple; */
+  font-size: .8rem;
+  margin: .5rem 0rem;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  /*    border: 2px solid black; */
+  list-style: none;
+}
+
+nav .links li {
+  margin: 0rem 1.3rem;
+}
+
+nav .mobile-nav {
+  width: 100%;
+  display: none;
+  margin: 1rem 0rem;
+}
+
+nav .mobile-nav p {
+  padding: 0rem 1rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+nav .mobile-nav p:hover {
+  background-color: #f2f2f2;
+}
+
+nav .mobile-nav p span {
+  float: right;
+}
+
+nav .mobile-nav .mobile-links {
+  display: none;
+  list-style: none;
+}
+
+nav .mobile-nav .mobile-links li {
+  padding: 0rem 1rem;
+}
+
+nav .mobile-nav .mobile-links li:hover {
+  background-color: #f2f2f2;
+}
+
+nav .mobile-nav .mobile-links .mobile-dropdown {
+  list-style: none;
+  display: none;
+}
+
+nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
+  background-color: #d9d9d9;
+}
+
+.dropdown_parent {
+  position: relative;
+  padding: 0rem  1rem;
+}
+
+.dropdown_parent span {
+  cursor: pointer;
+}
+
+.dropdown_parent ul {
+  position: absolute;
+  display: none;
+  width: 100%;
+  list-style: none;
+  padding: .4rem 0rem;
+}
+
+.dropdown_parent ul li {
+  margin: 0px;
+  padding: .5rem 0rem;
+}
+
+.dropdown_parent:hover ul {
+  display: block;
+}
+
+main .trips-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 6rem 0rem;
+}
+
+main .trips {
+  padding: 2rem 0rem 8rem 0rem;
+  width: 70%;
+  margin: auto;
+  /*  border: 1px solid red; */
+}
+
+main .trips p {
+  color: #4e4e4e;
+}
+
+main .trips-heading {
+  text-align: center;
+}
+
+main .trips-heading h1 {
+  font-weight: 500;
+}
+
+main .trips-heading h4 {
+  font-weight: 400;
+  color: #4e4e4e;
+  font-style: italic;
+  padding: 1rem 0rem;
+}
+
+footer button {
+  background-color: #ffffff;
+  font-size: .8rem;
+  border: 2px solid #282828;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+footer button:hover {
+  background-color: #282828;
+  color: #ffffff;
+}
+
+footer p {
+  padding: 2rem 0rem;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+
+footer p span {
+  font-weight: 600;
+}
+
+footer p a {
+  color: #4e4e4e;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: #b4b4b4;
+}
+
+@media only Screen and (max-width: 1300px) {
+  nav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav h1 {
+    margin-right: 0px;
+    text-align: center;
+    width: 100%;
+  }
+  nav .links {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem 0rem;
+    justify-content: center;
+  }
+}
+
+@media only Screen and (max-width: 1000px) {
+  nav, .container {
+    width: 90% !important;
+  }
+}
+
+@media only Screen and (max-width: 800px) {
+  nav, .container {
+    width: 95% !important;
+  }
+}
+
+@media only Screen and (max-width: 750px) {
+  nav {
+    width: 100% !important;
+  }
+  nav .links {
+    background-color: red;
+    display: none;
+  }
+  nav .mobile-nav {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  main .trips-container {
+    margin: 0rem;
+  }
+}
+/*# sourceMappingURL=previous-trips.css.map */

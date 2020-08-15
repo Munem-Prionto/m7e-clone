@@ -1,0 +1,36 @@
+main {
+    margin-top: 5rem;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+
+    .bio-lg-logo {
+        width: 40%;
+       /*  border: 2px solid black; */
+    }
+    .bio-text {
+        width: 60%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        /* border: 2px solid black; */
+        padding: 0rem 1rem;
+
+
+        h1 {
+            align-self: flex-end;
+            
+           /*  border: 2px solid black; */
+            
+            padding-bottom: 1rem ;
+        }
+        h3 {
+           /*  border: 2px solid black; */
+            font-weight: 400;
+            
+            color: $s-font-color;
+        }
+    }
+}

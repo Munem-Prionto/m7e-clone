@@ -1,0 +1,118 @@
+nav {
+    
+    padding-top: 3rem;
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+    a {
+        text-decoration: none;
+        color: $font-color;
+        
+        &:hover {
+            color: $s-font-color;
+        }
+    }
+
+    span { cursor: pointer}
+
+    h1 {
+       
+        a {
+            flex-grow: 1;
+            font-size: 2rem;
+            color: $purple;
+
+            &:hover {
+                cursor: pointer;
+                color: $font-color;
+            }
+        }
+
+    }
+    .links {
+        /* background-color: rebeccapurple; */
+        font-size: .8rem;
+        margin: .5rem 0rem;
+        flex-grow: 2;
+        display: flex;
+        justify-content: flex-end;
+     /*    border: 2px solid black; */
+        list-style: none;
+
+        li {
+            margin: 0rem 1.3rem;
+        }
+    }
+    .mobile-nav {
+        width: 100%;
+        display: none;
+        margin: 1rem 0rem;
+        
+        p{
+            padding: 0rem 1rem;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            &:hover {
+                background-color: darken($color: white, $amount: 05%);
+            }
+
+            span {
+                float: right;
+            }
+        }
+        .mobile-links {
+
+            
+            display: none;
+            list-style: none;
+
+            li {
+                padding: 0rem 1rem;
+                &:hover {
+                    background-color: darken($color: white, $amount: 05%); 
+                }
+            }
+
+            .mobile-dropdown{
+                list-style: none;
+                display: none;
+
+                li {
+                    
+                    &:hover {
+                        background-color: darken($color: white, $amount: 15%); 
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+.dropdown_parent {
+    position: relative;
+   
+    padding:0rem  1rem;
+    span {
+        cursor: pointer;
+    }
+    ul {
+        position: absolute;
+        display: none;
+        width: 100%;
+        list-style: none;
+        padding: .4rem 0rem;
+        li {
+            margin: 0px;
+            padding: .5rem 0rem;
+        }
+    }
+    &:hover {
+        ul {
+            display: block;
+        }
+    }
+}

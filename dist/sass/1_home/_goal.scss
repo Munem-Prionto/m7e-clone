@@ -1,0 +1,38 @@
+.goals {
+    width: 100%;
+}
+.wwd-container {
+    padding: 3rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 2px solid black; */
+
+    .wwd-heading {
+       /*  background-color: blue; */
+        width: 30%;
+        h2 {
+            font-weight: 400;
+            font-size: 2rem;
+        }
+    }
+    .wwd-para {
+        color: $s-font-color;
+        width: 70%;
+    }
+}
+
+.wwd-quote {
+    padding: 1rem 0rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.lg-goal-img {
+    padding: 3rem 0rem;
+} 
+
+.reviews {
+    .wwd-para {
+        font-weight: bold;
+    }
+}

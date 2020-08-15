@@ -1,0 +1,47 @@
+@media only Screen and (max-width: 1300px) {
+
+   main {
+     text-align: center;
+     flex-direction: row;
+     .bio-lg-logo {
+      width: 100%;
+          img {
+               width: 50%;
+          }
+     }
+
+     .bio-text{
+          width: 100%;
+          h1 {
+               width: 100%;
+          }
+     }
+   }
+
+}
+
+ @media only Screen and (max-width: 1000px) {
+/*      .container {
+          width: 90% !important;
+     } */
+}
+@media only Screen and (max-width: 800px) {
+/*      .container {
+          width: 95% !important;
+     } */
+     .wwd-container {
+          
+          flex-direction: row;
+          .wwd-heading{
+               padding: .6rem 0rem;
+               width: 100%;
+          }
+          .wwd-para {
+               width: 100%;
+          }
+     }
+
+}
+@media only Screen and (max-width: 750px) {
+     //navbar
+}

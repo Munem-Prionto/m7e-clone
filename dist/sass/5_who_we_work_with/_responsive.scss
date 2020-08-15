@@ -1,0 +1,15 @@
+@media only Screen and (max-width: 750px) {
+    main {
+        margin: 2rem auto;
+        .client-container {
+            .client-logo {
+                width: 60%;
+                margin: 0rem auto;
+            }
+            .client-info {
+                width: 100%;
+            }
+        }
+    }
+
+}

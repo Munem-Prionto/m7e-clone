@@ -1,0 +1,28 @@
+main {
+    .news-container {
+        
+        width: 70%;
+        margin: 6rem auto;
+
+        .news-heading {
+            padding: 2rem 0rem;
+            text-align: center;
+
+            h1 {
+                font-weight: 500;
+            }
+            h4 {
+                font-weight: 400;
+                color: $s-font-color;
+                font-style: italic;
+                padding: 1rem 0rem;
+            }
+        }
+
+        p {
+            color: $s-font-color;
+            padding: 2rem 0rem;
+        }
+    }
+}
+

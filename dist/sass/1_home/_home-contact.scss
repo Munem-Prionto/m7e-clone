@@ -1,0 +1,19 @@
+.home-contact {
+    padding: 10rem 0rem;
+    text-align: center;
+    p{
+        font-weight: 500;
+        font-size: 2rem;   
+        padding: 2rem 0rem; 
+    }   
+    a{  
+
+        font-size: 1.3rem;
+        color: $s-font-color;
+        text-decoration: none;
+         &:hover {
+             color: lighten($color: $s-font-color, $amount: 30%);
+         }
+    }  
+
+}
