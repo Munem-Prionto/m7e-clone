@@ -138,6 +138,10 @@ nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
   background-color: #d9d9d9;
 }
 
+nav .mobile-nav #mobile-about-dd {
+  cursor: pointer;
+}
+
 .dropdown_parent {
   position: relative;
   padding: 0rem  1rem;

@@ -138,6 +138,10 @@ nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
   background-color: #d9d9d9;
 }
 
+nav .mobile-nav #mobile-about-dd {
+  cursor: pointer;
+}
+
 .dropdown_parent {
   position: relative;
   padding: 0rem  1rem;
@@ -164,27 +168,27 @@ nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
   display: block;
 }
 
-main ~
-.questions {
+main {
+  margin: 8rem auto;
+}
+
+main .questions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   border-bottom: 0.2px solid #cecece;
-  padding: 6rem 0rem;
 }
 
-main ~
-.questions .q {
+main .questions .q {
   font-weight: 500;
   font-size: 1.5rem;
   width: 30%;
   padding-right: 2rem;
 }
 
-main ~
-.questions p {
+main .questions p {
   color: #4e4e4e;
   width: 70%;
 }

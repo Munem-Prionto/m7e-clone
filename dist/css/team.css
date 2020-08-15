@@ -138,6 +138,10 @@ nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
   background-color: #d9d9d9;
 }
 
+nav .mobile-nav #mobile-about-dd {
+  cursor: pointer;
+}
+
 .dropdown_parent {
   position: relative;
   padding: 0rem  1rem;
@@ -164,18 +168,16 @@ nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
   display: block;
 }
 
+main {
+  margin: 8rem 0rem;
+}
+
 main .profile-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 6rem 0rem;
-}
-
-main .first-profile {
-  /* padding-top: 6rem; */
-  padding: 2rem 0rem;
 }
 
 main .profile-img {
@@ -283,8 +285,12 @@ footer p a:hover {
 }
 
 @media only screen and (max-width: 750px) {
+  main {
+    margin: 2rem auto;
+  }
   main .profile-img, main .profile-info {
-    width: 100%;
+    width: 50%;
+    padding-bottom: 4rem;
   }
 }
 /*# sourceMappingURL=team.css.map */
