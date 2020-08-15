@@ -164,13 +164,8 @@ nav .mobile-nav .mobile-links .mobile-dropdown li:hover {
   display: block;
 }
 
-main {
-  /*     .first {
-        margin-top: 5rem;
-    }*/
-}
-
-main .questions {
+main ~
+.questions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,14 +175,16 @@ main .questions {
   padding: 6rem 0rem;
 }
 
-main .questions .q {
+main ~
+.questions .q {
   font-weight: 500;
   font-size: 1.5rem;
   width: 30%;
   padding-right: 2rem;
 }
 
-main .questions p {
+main ~
+.questions p {
   color: #4e4e4e;
   width: 70%;
 }
